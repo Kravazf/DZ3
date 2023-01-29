@@ -15,32 +15,62 @@
 <meta name="theme-color" content="#ffffff">
 
 <style>
-    .background1 {
-        background-color: #000; 
-    }
-    .centertext {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #fff;
-    }
+ 
+
 </style>
 
 </head>
 
-    <body class="background1">
-
+    <body>
 
         <header>
 
-            <h1 class="centertext">Buy a car in Ukraine:</h1>
+            <h1>Buy a car in Ukraine:</h1>
             <hr>
 
         </header>
 
 
         <main>
-        <form action=""></form>
+            <form action="https://fom.in.ua/echo" method="post">
+                
+                <fieldset>
+                    <legend>Fill out the registration form:</legend>
+
+                    <P>
+                        <label for="Name">You Name</label>
+                        <input id="Name" type="text" placeholder="Ваше Ім'я" required>
+                    </P>
+
+                    <P>
+                        <label for="Surname">You Surname</label>
+                        <input id="Surname" type="text" placeholder="Ваше Прізвище" required>
+                    </P>
+
+                    <P>
+                        <label for="Email">You Email</label>
+                        <input id="Email" type="email" placeholder="Ваш Email" required>
+                    </P>
+
+                    <P>
+                        <label for="Pass">You Password</label>
+                        <input id="Pass" type="password" placeholder="Пароль" required>
+                    </P>
+
+                    <P>
+                        <label for="Pass2">Password confirmation</label>
+                        <input id="Pass2" type="password" placeholder="Підтвердження паролю" required>
+                    </P>
+                </fieldset>
+
+                <fieldset>
+                    <p>
+                        <button type="submit">To register</button>
+                        <button type="reset">Reset</button>
+                    </p>
+                </fieldset>
+                
+            </form>
 
 
 
