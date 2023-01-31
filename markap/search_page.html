@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy a car in Ukraine, registration</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+<link rel="manifest" href="./images/site.webmanifest">
+<link rel="mask-icon" href="./images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<style>
+    table {
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+        border: 3px solid #000;
+}
+
+td {
+        padding: 10px;
+        border: 1px solid #000;
+}
+
+</style>
+
+</head>
+
+    <body>
+
+        <header>
+
+            <h1>"Buy a car in Ukraine":</h1>
+            <hr>
+
+        </header>
+
+
+        <main>
+            <form action="https://fom.in.ua/echo" method="post">
+                
+                <fieldset>
+                    <legend>
+                        <h2>
+                            <i>
+                                Search form:
+                            </i>
+                        </h2>
+                    </legend>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">
+                                    Пошук:
+                                </th>
+                            </tr>
+                            
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label>Тип Кузова:</label>
+
+                                </td>
+                                    <td>
+                                        <label>
+                                            <input type="checkbox" name="cuz">
+                                            Універсал
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="cuz" checked>
+                                            Седан
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="cuz">
+                                            Купе
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="cuz">
+                                            Позашляховик/кроссовер
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="cuz">
+                                            Кабріолет
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="cuz">
+                                            Родстер
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="cuz">
+                                            Пікап
+                                        </label>
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="marka">Марка авто:</label>
+
+                                </td>
+                                    <td>
+                                        <label>
+                                            <select name="marka" id="marka">
+                                                <option value="m1">Audi</option>
+                                                <option value="m2">Acura</option>
+                                                <option value="m3">BMW</option>
+                                                <option value="m4">Bugatti</option>
+                                                <option value="m5">Volvo</option>
+                                                <option value="m6">Toyota</option>
+                                                <option value="m7">Lexus</option>
+                                                <option value="m8">Mercedes</option>
+                                            </select>
+                                        </label>
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="country">Країна виробник:</label>
+                                </td>
+                                <td>
+                                    <label>
+                                        <select name="country" id="country" multiple>
+                                            <option value="c1">Україна</option>
+                                            <option value="c2">Німеччина</option>
+                                            <option value="c3">США</option>
+                                            <option value="c4">Італія</option>
+                                            <option value="c5">Голандія</option>
+                                            <option value="c6">Японія</option>
+                                            <option value="c7">Іспанія</option>
+                                            <option value="c8">Португалія</option>
+                                        </select>
+                                    </label>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="price">Ціна:</label>
+                                </td>
+                                <td >
+                                    <label>
+                                        <input type="number" id="price" placeholder="Від" step="100">
+                                    </label>
+                                    <label>
+                                       <input type="number" placeholder="До" step="100">
+                                    </label>
+                                    <select name="curency">
+                                        <option value="cur1">$</option>
+                                        <option value="cur2">EUR</option>
+                                        <option value="cur3">UAH</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="graduation_year">Рік випуску:</label>
+                                </td>
+                                <td >
+                                    <label>
+                                        Від:<input type="month" id="graduation_year">
+                                    </label>
+                                    <label>
+                                       До:<input type="month">
+                                    </label>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label>Стан:</label>
+
+                                </td>
+                                    <td>
+                                        <label>
+                                            <input type="checkbox" name="condi" checked>
+                                            Нова, з салону
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="condi">
+                                            Пісдя ДТП
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="condi">
+                                            Не на ходу
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="condi">
+                                            У кредиті
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="condi">
+                                            Нерозмитнені
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="condi">
+                                            Пригнані із США
+                                        </label>
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label>Тип палива:</label>
+
+                                </td>
+                                    <td>
+                                        <label>
+                                            <input type="checkbox" name="fuel" checked>
+                                            Бензин
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="fuel">
+                                            Газ/Бензин
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="fuel">
+                                            Дизель
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="fuel">
+                                            Гібрид
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="fuel">
+                                            Електро
+                                        </label>
+                                    </td>
+                            </tr>
+
+                            
+                            <tr>
+                                <td>
+                                    <label>Тип коробки передач:</label>
+
+                                </td>
+                                    <td>
+                                        <label>
+                                            <input type="checkbox" name="transmission" checked>
+                                            Автомат
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="transmission">
+                                            Ручна/Механіка
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="transmission">
+                                            Робот
+                                        </label>
+                                        
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="color">Колір авто:</label>
+
+                                </td>
+                                    <td>
+                                        <label>
+                                            <select name="color" id="color">
+                                                <option value="c1">Чорний</option>
+                                                <option value="c2">Білий</option>
+                                                <option value="c3">Зелений</option>
+                                                <option value="c4">Жовтий</option>
+                                                <option value="c5">Блакитний</option>
+                                                <option value="c6">Синій</option>
+                                                <option value="c7">Білий перламутр</option>
+                                                <option value="c8">Чорний перламутр</option>
+                                                <option value="c8">Інший</option>
+                                            </select>
+                                        </label>
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label>Комфорт:</label>
+
+                                </td>
+                                    <td>
+                                        <label>
+                                            <input type="checkbox" name="comf" checked>
+                                            Шкіряний салон
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="comf">
+                                            Люк
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="comf">
+                                            Сабвуфер
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="comf">
+                                            Круіз контроль
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="comf">
+                                            Запуск двигуна з кнопки
+                                        </label>
+                                        <hr>
+                                        <label>
+                                            <input type="checkbox" name="comf">
+                                            Мультифункціональне кермо
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="comf">
+                                            Система "start-stop"
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="comf">
+                                            Обігрів керма
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="comf">
+                                            Обігрів передніх сидіннь
+                                        </label>
+                                        <hr>
+                                        <label>
+                                            <input type="checkbox" name="comf">
+                                            Обігрів задніх сидіннь
+                                        </label>
+                                    </td>
+                            </tr>
+        
+                        </tbody>
+                    </table>  
+                </fieldset>
+
+                <fieldset>
+                    <p>
+                        <button type="submit">Пошук</button>
+                        <button type="reset">Reset</button>
+                    </p>
+                </fieldset>
+                
+            </form>
+        </main>
+
+
+        <footer>
+            <p>Контактна інформація:</p>
+                <p>тел. +380970000001</p>
+                <p>тел. +380950000002 <i>Viber</i></p>
+                <p>тел. +380630000003 <i>Telegram</i></p>
+
+                <q>З повагою! <cite>Адміністрація сайту</cite></q>
+
+        </footer>
+  
+    </body>
+</html>
